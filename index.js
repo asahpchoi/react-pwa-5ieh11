@@ -4,12 +4,11 @@ import Hello from './Hello';
 import './style.css';
 import registerServiceWorker from './registerServiceWorker';
 
-
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'React',
     };
   }
 
@@ -17,9 +16,7 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
-        <p>
-          Testing of PWA
-        </p>
+        <p>Testing of PWA2</p>
       </div>
     );
   }
